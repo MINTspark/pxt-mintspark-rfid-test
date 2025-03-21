@@ -1,17 +1,5 @@
 
 
-input.onButtonPressed(Button.A, function () {
-    writeData("999")
-    music.play(music.tonePlayable(262, music.beat(BeatFraction.Sixteenth)), music.PlaybackMode.InBackground)
-})
-input.onButtonPressed(Button.B, function () {
-    basic.clearScreen();
-    basic.showString(readDataBlock());
-})
-basic.forever(function () {
-
-})
-
 
 //% block="RFID sensor IIC port read data from card"
 //% subcategory=Sensor group="IIC Port"
